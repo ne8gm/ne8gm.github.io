@@ -2,17 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Negm | AI & Data Science Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #2c3e50; }
-    p { color: #555; }
-    a { color: #3498db; text-decoration: none; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fa; }
+    header, footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
+    nav { background: #34495e; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 900px; margin: 30px auto; padding: 20px; background: white; border-radius: 10px; }
+    h2 { border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; }
+    .contact a img { width: 40px; margin: 10px; vertical-align: middle; }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Ahmed</h1>
-  <p>Welcome to my portfolio website!</p>
-  <a href="projects.html">See My Projects</a>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <!-- 👇 Edit your name and tagline here -->
+    <h1>Ahmed Negm</h1>
+    <p>AI & Data Science Student</p>
+  </header>
+
+  <!-- ================= NAVIGATION BAR ================= -->
+  <!-- 👇 Edit menu items if you change section names -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section id="about">
+    <h2>About Me</h2>
+    <!-- 👇 Edit this paragraph with your personal bio -->
+    <p>
+      I am a student specializing in Artificial Intelligence and Data Science.  
+      My main interests include machine learning, deep learning, and data analysis.  
+      I enjoy solving problems by using data-driven methods and building AI models  
+      that can make smart decisions.  
+      This portfolio is part of my assessment and showcases my journey and work.
+    </p>
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section id="projects">
+    <h2>Projects</h2>
+    
+    <!-- 👇 Edit project titles & descriptions -->
+    <div class="project">
+      <h3>1. Titanic Survival Prediction</h3>
+      <p>Built a machine learning model to predict passenger survival using logistic regression and decision trees.</p>
+    </div>
+
+    <div class="project">
+      <h3>2. Image Classification with CNN</h3>
+      <p>Developed a Convolutional Neural Network to classify images from the CIFAR-10 dataset with high accuracy.</p>
+    </div>
+
+    <div class="project">
+      <h3>3. Data Visualization Dashboard</h3>
+      <p>Created an interactive Python dashboard (Matplotlib, Seaborn) to explore and analyze real-world datasets.</p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <!-- 👇 Add/remove skills as you grow -->
+    <ul>
+      <li>Python (Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch)</li>
+      <li>Data Cleaning & Visualization</li>
+      <li>Machine Learning & Deep Learning</li>
+      <li>SQL & Databases</li>
+      <li>Problem Solving & Research</li>
+    </ul>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out:</p>
+
+    <!-- 👇 Email (clickable logo) -->
+    <a href="mailto:ahmednegm12333@gmail.com">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+    </a>
+
+    <!-- 👇 LinkedIn (clickable logo) -->
+    <a href="https://www.linkedin.com/in/ahmed-negm-011407309/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+    </a>
+
+    <!-- 👇 GitHub (clickable logo) -->
+    <a href="https://github.com/ne8gm" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+    </a>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <!-- 👇 Edit copyright text -->
+    <p>© 2025 Ahmed Negm | AI & Data Science Portfolio</p>
+  </footer>
+
 </body>
 </html>
